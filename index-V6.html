@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My instagram Profile</title>
+
+    <link href="https://fonts.google.com/specimen/Caudex?preview."rel="stylesheet">
+
+    <style>
+        body {
+            background: linear-gradient(to right, #89f7fe, #000000);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        .Intragram-button {
+            background-color: transparent;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 15px;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif; 
+            font-size: 18px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            box-shadow: none;
+            transition: background-color 0.3s;
+        }
+
+        .Intragram-button:hover {
+            background-color: none;
+        }
+
+        .Intragram-icon {
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .Intragram-button {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+        }
+
+        @media screen and (max-width: 768px) {
+            .Intragram-button {
+                padding: 12px 20px;
+                font-size: 16px;
+            }
+            
+            .Intragram-icon {
+                width: 25px;
+                height: 25px;
+            }
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="Intragram-container">
+        <a class="Intragram-button" href="https://www.facebook.com/share/1E4Naf2gNv/?mibextid=wwXIfr" target="_blank">
+            <img class="Intragram-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="facebook logo" width="30" height="30">
+            Click my Facebook
+        </a>
+        <br><br>
+        <a class="Intragram-button" href="https://www.instagram.com/b_boyzy28/#" target="_blank">
+            <img class="Intragram-icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="instagram logo" width="30" height="30">
+            Click my Instagram
+        </a>
+    </div>
+
+</body>
+</html>
